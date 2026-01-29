@@ -1,0 +1,20 @@
+/* Override AOS hidden styles - make all elements visible without animations */
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+/* Fix any visibility issues from main CSS */
+.main-wrapper,
+.home-banner,
+.banner-content,
+.feature-section,
+.category-section,
+.popular-section,
+.blog-section,
+.cta-section,
+.footer {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
